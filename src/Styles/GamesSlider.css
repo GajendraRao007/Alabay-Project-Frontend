@@ -1,0 +1,141 @@
+.game-carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 26px;
+    margin-top: 150px;
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    transition: background-image 0.5s ease-in-out, transform 0.5s ease-in-out; 
+    z-index: 100;
+}
+
+.game-carousel-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.game-carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.game-carousel-item img {
+    width: 100%;
+    display: block;
+}
+
+.game-carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.game-next-icons {
+    width: 110px;
+}
+
+.game-carousel-button.next {
+    right: 50px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 110px;
+}
+
+.game-carousel-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-discover-button {
+    position: absolute;
+    bottom: 150px;
+    left: 530px;
+    background-color: #843AFC; 
+    color: white; 
+    border: none;
+    width: 320px;
+    padding: 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 26px;
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 12px 11px 11.3px 0px #0000009C;
+}
+
+.game-discover-button:hover {
+    transform: scale(1.05);
+}
+
+.btn-icon{
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .game-carousel-content {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .game-discover-button {
+        position: absolute;
+        bottom: 20px;
+        left: 55px;
+        background-color: #843AFC; 
+        color: white; 
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 20px;
+        transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 12px 11px 11.3px 0px #0000009C;
+        margin-left: 4px;
+        padding: 0;
+        width: 200px;
+    }
+
+    .game-carousel-button.next {
+        right: -20px;
+        background-color: transparent;
+        color: white;
+        border: none;
+        cursor: pointer;
+        width: 110px;
+    }
+    .game-next-icons {
+        width: 50px;
+    }
+
+    .game-carousel-item img {
+        width: 100%;
+        display: block;
+        margin-bottom: 100px;
+    }
+    .games-text {
+        font-size: 20px;
+        margin-bottom: -100px;
+    }
+}

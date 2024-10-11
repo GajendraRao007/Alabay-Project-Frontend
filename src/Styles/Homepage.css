@@ -1,0 +1,831 @@
+.landingPage-Section {
+    background: url('src/Images/landingimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    background-position: center;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1; 
+}
+
+.scroll-section {
+    margin: 0 20px;
+    margin-top: 120vh;
+    z-index: 100;
+    background-color: white;
+    padding-top: 50px;
+    max-height: 670px; 
+    overflow-y: 520px; 
+    overflow-x: hidden; 
+    border-top-left-radius:40px ;
+    border-top-right-radius: 10px;
+}
+
+.scroll-section::-webkit-scrollbar {
+    width: 3px; 
+    height: 12px; 
+}
+
+.scroll-section::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 10px;
+}
+
+.scroll-section::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.scroll-section::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px; 
+}
+
+.title-container {
+    position: relative;
+    display: inline-block;
+}
+
+.landing-title-stroke {
+    font-size: 105px;
+    font-family: 'CHEESEBURGA', sans-serif;
+    color: rgba(15, 27, 41, 1); 
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    text-shadow: 17px 11px rgba(15, 27, 41, 1);
+}
+
+.landing-title {
+    font-size: 105px;
+    font-family: 'CHEESEBURGA', sans-serif;
+    background: linear-gradient(180deg, #FFF280 0%, #7EFF5E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 2; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(15, 27, 41, 1);
+    background-color: rgba(15, 27, 41, 1);
+}
+
+.landing-text-container{
+    background-color: #181C27;
+    padding: 15px 0;
+    margin-top: 300px;
+}
+
+.landing-text{
+    font-size: 35px;
+    font-family: 'CHEESEBURGA', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+.landing-text span{
+    background: linear-gradient(180deg, #FFF280 37.4%, #FFA800 63.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-section{
+    background: radial-gradient(42.38% 44.19% at 50.14% 67.33%, #FFF280 0%, #FFC700 100%);
+    height: 1000px;
+    position: relative;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius:40px ;
+    bottom: 50px;
+}
+
+.bar-img-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.bar-img{
+    width: 150px;
+}
+.hero-section::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px; 
+    background-color: white; 
+    clip-path: polygon(0 0, 100% 100%, 0% 100%);
+    border-bottom: 1px solid white;
+  }
+
+.hero-section-content{
+    display: flex;
+    justify-content: center;
+}
+
+.dog-img{
+    width: 107%;
+    z-index: 100;
+    position: relative;
+    top: 195px;
+}
+
+.hero-text{
+    padding-right: 60px;
+    text-align: right;
+    padding-top: 100px;
+    width: 55%;
+}
+
+.hero-title-text{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    color: #F76902;
+}
+
+.hero-logo-text{
+    font-family: 'CHEESEBURGA', sans-serif;
+    font-weight: 400;
+    font-size: 155px;
+    color: white;
+}
+
+.hero-section-description{
+    color: #353535;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+/*project vision css*/
+.project-vision-section{
+    margin-top: 280px;
+}
+
+.project-vision-title{
+    font-family: 'CHEESEBURGA', sans-serif;
+    font-size: 170px;
+    font-weight: 400;
+    color: #FFA800;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.alldogs-img{
+    width: 100%;
+    position: relative;
+}
+
+.img-background {
+    background: radial-gradient(30.64% 32.66% at 47.77% 40.92%, #FFF280 0%, #FFC700 100%);
+    position: relative;
+}
+
+.img-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px; 
+    background-color: white; 
+    clip-path: polygon(0 0, 0% 85%, 210% 0%);
+    border-bottom: 1px solid white;
+}
+
+.img-background::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px; 
+    background-color: white; 
+    clip-path: polygon(0 0, 100% 100%, 0% 100%);
+    border-bottom: 1px solid white;
+}
+
+
+.project-vision-description{
+    text-align: center;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    position: relative;
+    bottom: 580px;
+    color: #353535;
+}
+
+.road-map-title{
+    font-family: 'CHEESEBURGA', sans-serif;
+    color: white;
+    font-size: 160px;
+    position: relative;
+    bottom: 400px;
+    padding-left: 90px;
+    z-index: 300;
+    font-weight: 400;
+}
+
+.raod-map-section{
+    justify-content: space-between;
+    position: relative;
+    bottom: 100px;
+    z-index: 200;
+}
+
+.vision-img{
+    width: 650px;
+    position: absolute;
+    right: 0px;
+    bottom: -130px;
+}
+
+.road-map-text{
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #353535;
+    padding-left: 80px;
+    margin-bottom: 30px;
+}
+
+.road-map-text-joinus{
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFA800;
+    padding-left: 80px;
+}
+
+/**/
+
+.cards-section{
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    text-align: center;
+    z-index: 500;
+    margin-top: 30px;
+}
+
+.card-first{
+    width: 300px;
+    height: 600px;
+    background: linear-gradient(180deg, #DBC70C 0%, rgba(255, 242, 128, 0) 100%);
+    border-top-left-radius: 20px;
+    padding-top: 22px;
+}
+.card-second{
+    width: 300px;
+    height: 600px;
+    background: linear-gradient(180deg, #00D4D4 0%, rgba(65, 255, 255, 0) 100%);
+    padding-top: 22px;
+}
+.card-third{
+    width: 300px;
+    height: 600px;
+    background: linear-gradient(180deg, #D427FF 0%, rgba(212, 39, 255, 0) 100%);
+    padding-top: 22px;
+}
+.card-fourth{
+    width: 300px;
+    height: 600px;
+    background: linear-gradient(179.53deg, #8F3A3C 0.41%, rgba(143, 58, 60, 0) 95.85%);
+    border-top-right-radius: 20px;
+    padding-top: 22px;
+}
+
+.card-imgs{
+    width: 100%;
+    align-items: center;
+}
+
+.card-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+}
+.card-text-small{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#img-second{
+    margin-top: 35px;
+}
+
+.card-text-two{
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+/**/
+
+
+.section-six-background{
+    background: radial-gradient(30.64% 32.66% at 42.77% 52.92%, #FFF280 0%, #FFC700 100%);
+    position: relative;
+    height: 200vh;
+}
+
+.section-six-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px; 
+    background-color: rgb(255, 255, 255); 
+    clip-path: polygon(0 0, 0% 40%, 100% 0%);
+    border-top: 1px solid white;
+}
+
+.section-six-background::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 160px; 
+    background-color: white; 
+    clip-path: polygon(0 0, 100% 100%, 0% 100%);
+    border-bottom: 1px solid white;
+}
+
+.title-text-section-six{
+    font-family: 'CHEESEBURGA', sans-serif;
+    color: white;
+    font-size: 155px;
+    padding-top: 270px;
+    padding-left: 40px;
+    font-weight: 400;
+}
+
+.section-six-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.moneydog-img{
+    position: relative;
+    z-index: 400;
+    width: 550px;
+}
+
+.box{
+    box-shadow: 16.62px 20.12px 35.77px 0px #A87D29;
+    width: 310px;
+    border-radius: 15px;
+    padding: 25px 40px;
+    background-color: #353535;
+}
+
+.box-text-small{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 15px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.box-text-large{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    line-height: 15px;
+    color: #FFF280;
+    font-weight: 900;
+}
+
+
+.merchandise-section{
+    margin-top: 80px;
+}
+
+.merchandise-title{
+    font-family: 'CHEESEBURGA', sans-serif;
+    font-size: 170px;
+    font-weight: 400;
+    color: #FFA800;
+    text-align: center;
+}
+
+
+/**/
+
+.games-section-background{
+    background: radial-gradient(30.64% 32.66% at 42.77% 52.92%, #FFF280 0%, #FFC700 100%);
+    position: relative;
+    bottom: 290px;
+    height: 150vh;
+    padding-top: 600px;
+    text-align: center;
+}
+
+
+.games-section-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px; 
+    background-color: rgb(255, 255, 255); 
+    clip-path: polygon(0 0, 0% 40%, 100% 0%);
+    border-top: 1px solid white;
+}
+
+.games-section-background::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 160px; 
+    background-color: white; 
+    clip-path: polygon(0 0, 100% 100%, 0% 100%);
+    border-bottom: 1px solid white;
+}
+
+.games-title{
+    font-family: 'CHEESEBURGA', sans-serif;
+    color: white;
+    font-size: 155px;
+    font-weight: 400;
+}
+
+.games-text{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #353535;
+}
+
+/**/
+
+.game-preview-section{
+    padding-bottom: 150px;
+}
+
+.game-preview-title{
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    padding-left: 35px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    color: #FFA800;
+}
+
+.game-preview-title span{
+    color: black;
+}
+
+/**/
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    padding-bottom: 100px;
+}
+
+.footer-title{
+    font-family: 'CHEESEBURGA', sans-serif;
+    color: #FFA800;
+    font-size: 155px;
+    font-weight: 400;
+    padding-left: 50px;
+}
+
+.footer-text{
+    background-image: url('../Images/message.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 445px;
+    margin-top: 100px;
+}
+
+.footer-img{
+    width: 700px;
+}
+
+.box-social{
+    display: flex;
+    align-items: center;
+}
+
+.social-twitter{
+    padding-left: 60px;
+    padding-right: 20px;
+    cursor: pointer;
+    width: 80px;
+}
+
+.social-telegram{
+    padding-right: 20px;
+    padding-left: 60px;
+    padding-top: 20px;
+    cursor: pointer;
+    width: 80px;
+}
+
+.footer-social-box{
+    margin-top: 80px;
+}
+
+.social-text{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+
+/*Responsive css*/
+
+@media only screen and (max-width: 768px) {
+
+    .landingPage-Section {
+        height: 100vh; 
+        background-position: center; 
+    }
+
+    .scroll-section {
+        margin-top: 100vh;
+        border-top-left-radius:15px ;
+        border-top-right-radius:15px ;
+    }
+
+    .landing-title-stroke,
+    .landing-title {
+        font-size: 45px; 
+        margin-top: 50px;
+    }
+
+    .landing-text-container {
+        margin-top: 250px; 
+    }
+
+    .landing-text {
+        font-size: 18px; 
+        font-weight: 400;
+    }
+
+    .bar-img{
+        width: 100px;
+    }
+
+    .hero-section-content{
+        display: block;
+    }
+    
+    .dog-img{
+        width: 100%;
+        z-index: 100;
+        position: relative;
+        top: 30px;
+    }
+
+    .hero-section {
+        height: 600px; 
+        border-top-left-radius:15px ;
+        border-top-right-radius:10px ;
+    }
+
+    .hero-title-text {
+        font-size: 30px; 
+        position: absolute;
+        bottom: 180px;
+        z-index: 100;
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-section-description {
+        font-size: 18px; 
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        bottom: 10px;
+        z-index: 100;
+    }
+
+    .project-vision-section{
+        margin-top: 60px;
+    }
+    
+    .project-vision-title {
+        font-size: 70px; 
+    }
+
+    .project-vision-description {
+        font-size: 16px;
+        padding: 0 10px; 
+        bottom: 100px; 
+    }
+
+    .road-map-title {
+        font-size: 90px; 
+        padding-left: 20px; 
+        margin-top: 330px;
+    }
+
+    .vision-img{
+        width: 310px;
+        padding-right: 20px;
+    }
+    
+
+    .road-map-text{
+        position: relative;
+        bottom: 260px;
+        font-size: 30px; 
+        padding-left: 20px;
+    }
+
+    .road-map-text-joinus {
+        position: relative;
+        bottom: 260px;
+        font-size: 20px; 
+        padding-left: 20px;
+    }
+
+    .cards-section {
+        justify-content: center;
+        flex-direction: column; 
+        margin-top: 20px; 
+        padding: 0 20px;
+    }
+
+    .card-first,
+    .card-second,
+    .card-third,
+    .card-fourth {
+        width: 100%; 
+        height: auto;
+        margin-bottom: 20px; 
+        border-radius: 20px;
+    }
+
+    .card-text,
+    .card-text-small,
+    .card-text-two {
+        font-size: 24px; 
+    }
+
+    .section-six-background {
+        height: auto; 
+    }
+
+    .section-six-content {
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .box {
+        width: 200px; 
+        padding: 10px 30px;
+        margin: 0 auto; 
+    }
+
+    .moneydog-img {
+        position: relative;
+        z-index: 400;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .box-text-small,
+    .box-text-large {
+        font-size: 18px; 
+    }
+
+    .title-text-section-six {
+        text-align: center;
+        font-size: 50px; 
+        padding-top: 160px; 
+        padding-bottom: 50px;
+    }
+
+    .merchandise-title {
+        font-size: 50px; 
+    }
+
+    .games-section-background {
+        padding-top: 300px; 
+        height: auto; 
+    }
+
+    .games-title {
+       font-size: 60px; 
+       margin-top: 100px;
+    }
+
+    .games-text {
+        font-size: 20px;
+    }
+
+    
+.game-preview-section{
+    padding-bottom: 500px;
+}
+
+.game-preview-title{
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    padding-left: 35px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    color: #FFA800;
+    margin-top: -200px;
+}
+
+.game-preview-title span{
+    color: black;
+}
+
+/**/
+
+.footer-content{
+    display: block;
+    padding: 0 20px;
+}
+
+.footer-title{
+    font-family: 'CHEESEBURGA', sans-serif;
+    color: #FFA800;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: -50px;
+}
+
+.footer-text{
+    background-image: url('../Images/message.png');
+    background-repeat: no-repeat;
+    background-size: 310px;
+    width: 100%;
+    height: 445px;
+    /* margin-top: 100px; */
+    padding-top: 35px;
+}
+
+.footer-img{
+    width: 300px;
+    margin-top: -130px;
+}
+
+.box-social{
+    display: flex;
+    align-items: center;
+}
+
+.social-twitter{
+    padding-left: 30px;
+    padding-right: 20px;
+    cursor: pointer;
+    width: 40px;
+}
+
+.social-telegram{
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    cursor: pointer;
+    width: 40px;
+}
+
+.footer-social-box{
+    margin-top: 10px;
+}
+
+.social-text{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 19px;
+}
+}

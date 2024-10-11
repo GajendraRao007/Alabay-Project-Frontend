@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: 'CHEESEBURGA';
+    src: url('./assets/Fonts/CHEESEBURGA.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BARONKUFFNER';
+    src: url('./assets/Fonts/BARONKUFFNER.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Link{
+    text-decoration: none;
+}

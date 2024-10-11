@@ -1,0 +1,107 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 26px;
+    margin-top: 150px;
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    transition: background-image 0.5s ease-in-out;
+    z-index: 100;
+  }
+  
+  .carousel-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    display: block;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: transparent;
+  }
+
+  .previous-icons{
+    width: 50px;
+  }
+  .next-icons{
+    width: 50px;
+  }
+  
+  .carousel-button.prev {
+    left: 50px;
+  }
+  
+  .carousel-button.next {
+    right: 50px;
+  }
+
+
+  .carousel-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .discover-button {
+    position: absolute;
+    bottom: 70px;
+    left: 495px;
+    background-color: #1f2029; 
+    color: white; 
+    border: none;
+    width: 270px;
+    padding: 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 26px;
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+  }
+  
+  .discover-button:hover{
+    transform: scale(1.05);
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .carousel-container {
+      margin-top: 50px;
+    }
+
+    .previous-icons{
+      width: 20px;
+    }
+    .next-icons{
+      width: 20px;
+    }
+
+    .carousel-button.prev {
+      left: 20px;
+    }
+    
+    .carousel-button.next {
+      right: 20px;
+    }
+  }
