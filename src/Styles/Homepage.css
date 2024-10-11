@@ -1,5 +1,5 @@
 .landingPage-Section {
-    background: url('src/Images/landingimg.png');
+    background: url('../Images/landingimg.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 120vh;
