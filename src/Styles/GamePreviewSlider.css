@@ -67,8 +67,8 @@
         padding: 0;
     }
 
-    .arrow-button-box {
-        display: none;
+    #arrow-btn{
+        margin-left: 65px;
     }
 
     .game-preview-section {

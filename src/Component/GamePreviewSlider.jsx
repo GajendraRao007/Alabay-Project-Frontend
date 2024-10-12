@@ -26,8 +26,8 @@ function GamePreviewSlider() {
                     </div>
                 ))}
                 <div className='arrow-button-box'>
-                    <button className='arrow-button' onClick={handleNextClick}>
-                        <img className='arrow-button' src={arrow} alt="Next" />
+                    <button className='arrow-button' id='arrow-btn' onClick={handleNextClick}>
+                        <img className='arrow-button' id='arrow-btn' src={arrow} alt="Next" />
                     </button>
                 </div>
             </div>
